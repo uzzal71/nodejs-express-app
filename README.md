@@ -91,3 +91,25 @@ Overview
    - CSS
    - Bootstrap
    - jQuery
+
+# Setting Up Express
+Create a app.js file in your application and write app.js file
+```
+const express = require('express');
+
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => {
+    res.send('Hello from my app');
+});
+
+app.listen(port, () => {
+    console.log(`Development server is running on ${port}`);
+});
+```
+
+Run you first code - Open terminal
+```
+node app.js
+```
