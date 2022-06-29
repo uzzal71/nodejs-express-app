@@ -49,3 +49,8 @@ One os multiple nodejs version using
 - https://github.com/nvm-sh/nvm
 
 # Picking an IDE
+- Sublime Text "https://www.sublimetext.com/3"
+- Web Storm "https://www.jetbrains.com/webstorm/"
+- VS Code "https://code.visualstudio.com/"
+
+I Personally Recommend You Use VS Code
