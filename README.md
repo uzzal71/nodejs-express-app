@@ -67,3 +67,10 @@ then install express using npm
 ```
 npm install express
 ```
+
+# Summary
+- What is Node.js?
+- Install Node
+- Versioning with NVM
+- So many IDEs
+- NPM as a Package Manager
