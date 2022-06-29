@@ -54,3 +54,16 @@ One os multiple nodejs version using
 - VS Code "https://code.visualstudio.com/"
 
 I Personally Recommend You Use VS Code
+
+# Working with NPM
+Goto your desktop and create a "application" Folder, Now you computer terminal open here.
+```
+npm init
+```
+Enter key all option and create a package.json file.
+
+then install express using npm
+
+```
+npm install express
+```
