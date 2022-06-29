@@ -118,3 +118,36 @@ node app.js
 ```
 node app.js
 ```
+
+# Debugging Options
+```
+npm install chalk@4.1.1
+npm install debug@4.3.1
+npm install morgan
+```
+
+Open app.js file
+```
+const express = require('express');
+const chalk = require('chalk');
+const debug = require('debug')('app');
+const morgan = require('morgan');
+
+const app = express();
+app.use(morgan('combined'));
+const port = 3000;
+
+app.get('/', (req, res) => {
+    res.send('Hello from my app');
+});
+
+app.listen(port, () => {
+    debug(`Development server is running on ${chalk.green(port)}`);
+});
+```
+
+Run:
+```
+DEBUG=* node app.js 
+DEBUG=app node app.js
+```
