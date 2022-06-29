@@ -151,3 +151,33 @@ Run:
 DEBUG=* node app.js 
 DEBUG=app node app.js
 ```
+
+# Serving Index.html
+Create a file called index.html
+* public
+    * index.html
+
+open index.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express app</title>
+</head>
+<body>
+    <h2>Welcome my express application</h2>
+</body>
+</html>
+```
+
+Now, open app.js file
+```
+const path = require('path');
+
+app.use(express.static(path.join(__dirname, '/public/')));
+
+```
+
