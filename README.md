@@ -28,3 +28,24 @@ Express.js, or simply Express, is a back end web application framework for Node.
 - Nodejs +
 - NPM +
 - Express
+
+# Installing Node
+Download nodejs update version below website link
+https://nodejs.org/en/download/
+
+Then, Open your computer terminal & type
+```
+node
+```
+
+Check Nodejs version
+```
+node --version
+```
+
+# Dealing with Node Versions
+One os multiple nodejs version using
+- https://github.com/coreybutler/nvm-windows
+- https://github.com/nvm-sh/nvm
+
+# Picking an IDE
