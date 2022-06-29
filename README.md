@@ -181,3 +181,13 @@ app.use(express.static(path.join(__dirname, '/public/')));
 
 ```
 
+# Summary
+What You Learned
+* Index.html
+    * Set up express
+    * Running express
+    * Logging
+    * Serving HTML
+    * Serving static files
+        * Bootstrap
+        * jQuery
