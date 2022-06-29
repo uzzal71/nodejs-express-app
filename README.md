@@ -1,7 +1,10 @@
 # nodejs and express using create application
 Building Web Applications with Node.js and Express
 
-# Overview
+# Gratting Started
+
+### Introduction
+- Overview
 Building web apps
 - From the beginning
 - Node and NPM
@@ -74,3 +77,17 @@ npm install express
 - Versioning with NVM
 - So many IDEs
 - NPM as a Package Manager
+
+# The First Page
+### Introduction
+Overview
+- index.html
+ - Set up Express
+ - Running Express
+ - Logging
+ - Serving HTML
+ - Serving static files
+   - HTML
+   - CSS
+   - Bootstrap
+   - jQuery
