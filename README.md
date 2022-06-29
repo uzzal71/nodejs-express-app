@@ -113,3 +113,8 @@ Run you first code - Open terminal
 ```
 node app.js
 ```
+
+# Running Express
+```
+node app.js
+```
